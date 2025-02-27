@@ -1,0 +1,71 @@
+/* General Styles */
+.order-confirmation {
+    max-width: 900px; /* Increased max-width */
+    margin: 50px auto; /* Adjusted margin */
+    padding: 40px; /* Increased padding */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern font */
+    background-color: #f8f9fa; /* Lighter background */
+    border-radius: 15px; /* Softer corners */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Deeper shadow */
+    transition: all 0.3s ease; /* Smooth transition */
+}
+
+.order-confirmation:hover {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15); /* Enhance shadow on hover */
+}
+
+.order-confirmation h2 {
+    text-align: center;
+    color: #28a745; /* Bootstrap success color */
+    margin-bottom: 40px;
+    font-size: 2.5em; /* Larger font size */
+    font-weight: 600; /* Semi-bold */
+}
+
+/* Order Details Styles */
+.order-confirmation p {
+    color: #495057; /* Darker text */
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.order-confirmation h3 {
+    color: #343a40; /* Darker heading */
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    font-weight: 600;
+}
+
+/* List Styles */
+.order-confirmation ul {
+    list-style: none;
+    padding: 0;
+}
+
+.order-confirmation li {
+    padding: 20px;
+    border-bottom: 1px solid #e9ecef; /* Lighter border */
+    color: #6c757d; /* Gray text */
+    font-size: 1.1em;
+}
+
+.order-confirmation li:last-child {
+    border-bottom: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .order-confirmation {
+        margin: 30px auto;
+        padding: 20px;
+    }
+
+    .order-confirmation p {
+        font-size: 1.1em;
+    }
+
+    .order-confirmation li {
+        padding: 15px;
+    }
+}

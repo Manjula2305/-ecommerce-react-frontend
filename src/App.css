@@ -1,0 +1,34 @@
+:root{
+  --col1:#7ED957;
+  --col2:grey;
+  --col3:#cecece;
+}
+*{
+  margin:0;
+  padding:0;
+  font-family:"poppins",sans-serif;
+  font-weight: 400;
+}
+#dropdown-basic{
+  outline:none;
+  border: none;
+  margin:0px;
+  padding:0px;
+}
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+}
+
+.footer2 {
+  width: 100%;
+  background-color: #f8f9fa;
+  padding: 20px 0;
+}

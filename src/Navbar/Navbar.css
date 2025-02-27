@@ -1,0 +1,202 @@
+/* General Navbar Styling */
+nav {
+  background: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 12px 0;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Navbar Container */
+.container1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1300px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+/* Logo Styling */
+.logo {
+  height: 55px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.logo:hover {
+  transform: scale(1.05);
+}
+
+/* Search Bar */
+.Searchbar {
+  display: flex;
+  align-items: center;
+  background: #f1f1f1;
+  border-radius: 8px;
+  padding: 6px 12px;
+  width: 320px;
+  transition: 0.3s ease-in-out;
+}
+
+.Searchbar:hover {
+  background: #eaeaea;
+}
+
+.Searchbar input {
+  border: none;
+  outline: none;
+  flex: 1;
+  padding: 10px;
+  background: transparent;
+  font-size: 15px;
+}
+
+.Searchbar button {
+  background: #ff6600;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.Searchbar button:hover {
+  background: #e65c00;
+}
+
+/* Buttons Group */
+.button-group {
+  display: flex;
+  gap: 20px;
+}
+
+.button-group button {
+  background: transparent;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 10px 15px;
+  color: #333;
+  transition: color 0.3s ease-in-out;
+}
+
+.button-group button:hover {
+  color: #ff6600;
+}
+
+/* Cart & User Section */
+.subcontainer1 {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+/* Cart Icon */
+.Cart {
+  position: relative;
+  font-size: 22px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.Cart:hover {
+  color: #ff6600;
+  transform: scale(1.1);
+}
+
+/* Cart Quantity Badge */
+.qty {
+  position: absolute;
+  top: -6px;
+  right: -10px;
+  background: red;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 50%;
+  padding: 2px 7px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Login / Logout Button */
+.login-logout-button {
+  background: #ff6600;
+  color: white;
+  border: none;
+  padding: 9px 16px;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.login-logout-button:hover {
+  background: #e65c00;
+  transform: translateY(-2px);
+}
+
+/* SVG Icons */
+svg {
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+svg:hover {
+  color: #ff6600;
+  transform: scale(1.1);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .container1 {
+      flex-direction: column;
+      gap: 12px;
+  }
+
+  .Searchbar {
+      width: 90%;
+  }
+
+  .button-group {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .button-group {
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+  }
+
+  .subcontainer1 {
+      gap: 10px;
+  }
+
+  .login-logout-button {
+      font-size: 14px;
+      padding: 8px 14px;
+  }
+
+  .Searchbar {
+      width: 100%;
+  }
+}
+.contact-icon {
+  cursor: pointer;  /* Change the cursor to a pointer on hover */
+  /* Add other styling here (color, size, etc.) as needed */
+}
+
+.contact-icon:hover {
+    opacity: 0.7; /* Example hover effect */
+}

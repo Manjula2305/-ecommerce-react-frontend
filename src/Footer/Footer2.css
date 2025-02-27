@@ -1,0 +1,135 @@
+/* Footer Container */
+.footer2 {
+    background: #f4f4f4;
+    padding: 40px 0;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    border-top: 3px solid #ff3b3b;
+}
+
+/* Footer Grid Layout */
+.footerin1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Footer Logo */
+.logo {
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+/* Paragraph Styling */
+.f1 p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #444;
+    max-width: 220px;
+    margin: auto;
+}
+
+/* Headings */
+h3 {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #222;
+    font-weight: bold;
+}
+
+/* Footer Links */
+.footerin1 ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footerin1 li {
+    margin: 5px 0;
+}
+
+.footerin1 a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.footerin1 a:hover {
+    color: #ff3b3b;
+}
+
+/* Input Field */
+.inputcontainer {
+    display: flex;
+    align-items: center;
+    border: 1px solid #999;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: white;
+    max-width: 250px;
+    margin: auto;
+    width: 100%;
+}
+
+.inputcontainer input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    width: 70%;
+    box-sizing: border-box;
+}
+
+.send-btn {
+    background-color: #ff3b3b;
+    border: none;
+    padding: 10px 14px; /* Adjusted padding */
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+    transition: 0.3s ease;
+    white-space: nowrap;
+}
+
+.send-btn:hover {
+    background-color: #d62828;
+}
+
+/* Footer Bottom */
+.footerin2 {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #ddd;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* Social Media Icons */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.icon {
+    font-size: 18px;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.icon:hover {
+    color: #ff3b3b;
+}
+
+/* Payment Image */
+.payment-img {
+    width: 120px;
+    margin-top: 10px;
+}

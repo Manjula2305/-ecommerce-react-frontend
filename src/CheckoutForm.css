@@ -1,0 +1,85 @@
+/* General Styles */
+.checkout-container {
+    max-width: 700px; /* Increased max-width */
+    margin: 50px auto; /* Adjusted margin */
+    padding: 40px; /* Increased padding */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern font */
+    background-color: #f8f9fa; /* Lighter background */
+    border-radius: 15px; /* Softer corners */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Deeper shadow */
+    transition: all 0.3s ease; /* Smooth transition */
+}
+
+.checkout-container:hover {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15); /* Enhance shadow on hover */
+}
+
+.checkout-container h2 {
+    text-align: center;
+    color: #343a40; /* Darker heading */
+    margin-bottom: 40px;
+    font-size: 2.5em; /* Larger font size */
+    font-weight: 600; /* Semi-bold */
+}
+
+/* Form Styles */
+.checkout-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkout-form label {
+    color: #495057; /* Darker text */
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.checkout-form input {
+    padding: 14px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+    font-size: 1.1em;
+    transition: border-color 0.3s ease;
+}
+
+.checkout-form input:focus {
+    border-color: #80bdff; /* Highlight on focus */
+    outline: none; /* Remove default focus outline */
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Add focus shadow */
+}
+
+/* Button Styles */
+.checkout-button {
+    background-color: #28a745; /* Bootstrap success color */
+    color: white;
+    border: none;
+    padding: 16px 32px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.3em;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.checkout-button:hover {
+    background-color: #218838; /* Darker green hover */
+    transform: scale(1.05); /* Button scale on hover */
+}
+
+.checkout-button:active {
+    transform: scale(0.95); /* Button shrink on click */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .checkout-container {
+        margin: 30px auto;
+        padding: 20px;
+    }
+
+    .checkout-form input {
+        padding: 12px;
+        margin-bottom: 20px;
+    }
+}

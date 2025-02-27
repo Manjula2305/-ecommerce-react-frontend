@@ -1,0 +1,119 @@
+/* General Styles */
+.contact-page {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 40px;
+    font-family: 'Arial', sans-serif; /* A safe and clean font */
+    background-color: #f9f9f9; /* A very light background */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* A subtle shadow */
+}
+
+/* Heading */
+.contact-page h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+    font-size: 2.5em; /* Larger font size */
+}
+
+/* Paragraph */
+.contact-page p {
+    color: #666;
+    margin-bottom: 30px;
+    line-height: 1.6; /* Improve readability */
+    font-size: 1.1em;
+    text-align: center; /* Centered the paragraph */
+}
+
+/* Form */
+.contact-page form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Labels */
+.contact-page label {
+    color: #555;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/* Input Fields */
+.contact-page input[type="text"],
+.contact-page input[type="email"],
+.contact-page textarea {
+    width: 80%; /* Make them fill the container */
+    padding: 15px;
+    margin-bottom: 25px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1em;
+    transition: border-color 0.3s ease; /* Smooth transition */
+}
+
+.contact-page input[type="text"]:focus,
+.contact-page input[type="email"]:focus,
+.contact-page textarea:focus {
+    border-color: #4CAF50; /* Highlight color on focus */
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 8px rgba(76, 175, 80, 0.3); /* Subtle focus shadow */
+}
+
+/* Textarea */
+.contact-page textarea {
+    height: 150px; /* Make it taller for longer messages */
+    resize: vertical; /* Allow vertical resizing */
+}
+
+/* Submit Button */
+.contact-page button[type="submit"] {
+    background-color: #4CAF50; /* A calming green */
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition */
+}
+
+.contact-page button[type="submit"]:hover {
+    background-color: #388E3C; /* Darker green on hover */
+    transform: scale(1.05); /* Slight enlargement on hover */
+}
+
+.contact-page button[type="submit"]:active {
+    transform: scale(0.95); /* Slight shrinking on click */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .contact-page {
+        padding: 30px;
+        margin: 20px auto; /* Reduced margin on smaller screens */
+    }
+
+    .contact-page h1 {
+        font-size: 2em;
+    }
+
+    .contact-page p {
+        font-size: 1em;
+    }
+
+    .contact-page input[type="text"],
+    .contact-page input[type="email"],
+    .contact-page textarea {
+        width: 90%;
+        padding: 12px;
+    }
+
+    .contact-page button[type="submit"] {
+        padding: 12px 25px;
+        font-size: 1.1em;
+    }
+}
+
