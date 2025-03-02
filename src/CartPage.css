@@ -1,17 +1,17 @@
 /* General Styles */
 .cart-container {
-    max-width: 900px; /* Increased max-width */
-    margin: 50px auto; /* Adjusted margin */
-    padding: 40px; /* Increased padding */
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern font */
-    background-color: #f8f9fa; /* Lighter background */
-    border-radius: 15px; /* Softer corners */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Deeper shadow */
-    transition: all 0.3s ease; /* Smooth transition */
+    max-width: 900px; 
+    margin: 50px auto; 
+    padding: 40px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    background-color: #f8f9fa;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease; 
 }
 
 .cart-container:hover {
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15); 
 }
 
 .cart-container h2 {
@@ -34,8 +34,9 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    border-bottom: 1px solid #e9ecef; /* Lighter border */
-    transition: background-color 0.3s ease; /* Hover effect */
+    border-bottom: 1px solid #e9ecef; 
+    transition: background-color 0.3s ease; 
+    
 }
 
 .cart-list-item:last-child {
@@ -43,7 +44,7 @@
 }
 
 .cart-list-item:hover {
-    background-color: #f1f3f5; /* Slight background on hover */
+    background-color: #f1f3f5;
 }
 
 .cart-item-info {
@@ -52,28 +53,28 @@
 }
 
 .cart-item-image {
-    width: 100px; /* Increased size */
-    height: 100px; /* Increased size */
+    width: 100px; 
+    height: 100px; 
     margin-right: 20px;
-    border-radius: 10px; /* Rounder image corners */
+    border-radius: 10px;
     object-fit: cover;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08); /* Image shadow */
-    transition: transform 0.4s ease; /* Image zoom effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08); 
+    transition: transform 0.4s ease;
 }
 
 .cart-item-image:hover {
-    transform: scale(1.1); /* Zoom on hover */
+    transform: scale(1.1); 
 }
 
 .cart-item-name {
-    color: #495057; /* Darker text */
+    color: #495057; 
     font-size: 1.2em;
-    font-weight: 500; /* Semi-bold */
+    font-weight: 500; 
 }
 
 /* Remove Button Styles */
 .remove-button {
-    background-color: #dc3545; /* Bootstrap danger color */
+    background-color: #dc3545;
     color: white;
     border: none;
     padding: 12px 24px;
@@ -84,12 +85,12 @@
 }
 
 .remove-button:hover {
-    background-color: #c82333; /* Darker red on hover */
-    transform: scale(1.05); /* Button scale on hover */
+    background-color: #c82333;
+    transform: scale(1.05); 
 }
 
 .remove-button:active {
-    transform: scale(0.95); /* Button shrink on click */
+    transform: scale(0.95);
 }
 
 /* Order Details Styles */
@@ -98,25 +99,25 @@
     padding: 30px;
     background-color: #fff;
     border-radius: 15px;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08); /* Subtle shadow */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
 }
 
 .order-details h3 {
-    color: #343a40; /* Darker heading */
+    color: #343a40; 
     margin-bottom: 20px;
     font-size: 1.8em;
     font-weight: 600;
 }
 
 .order-details-item {
-    color: #495057; /* Darker text */
+    color: #495057; 
     font-size: 1.1em;
     margin-bottom: 10px;
 }
 
 .order-total {
     text-align: right;
-    color: #28a745; /* Green total */
+    color: #28a745; 
     font-size: 2em;
     font-weight: bold;
 }
@@ -127,7 +128,7 @@
 }
 
 .checkout-button {
-    background-color: #007bff; /* Bootstrap primary color */
+    background-color: #007bff; 
     color: white;
     border: none;
     padding: 16px 32px;
@@ -138,18 +139,18 @@
 }
 
 .checkout-button:hover {
-    background-color: #0056b3; /* Darker blue hover */
-    transform: scale(1.05); /* Button scale on hover */
+    background-color: #0056b3; 
+    transform: scale(1.05); 
 }
 
 .checkout-button:active {
-    transform: scale(0.95); /* Button shrink on click */
+    transform: scale(0.95); 
 }
 
 /* Empty Cart Styles */
 .empty-cart {
     text-align: center;
-    color: #6c757d; /* Gray text */
+    color: #6c757d; 
     font-size: 1.5em;
 }
 
