@@ -9,7 +9,7 @@ import Navbar from './Navbar/Navbar';
 import Footer2 from './Footer/Footer2';
 import CheckoutForm from './CheckoutForm';
 import OrderConfirmation from './OrderConfirmation';
-import ContactPage from './ContactPage'; // Import ContactPage
+import ContactPage from './ContactPage'; 
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'slick-carousel/slick/slick.css';
@@ -33,12 +33,10 @@ const App = () => {
     const existingProductIndex = cart.findIndex(item => item.id === product.id && item.selectedWeight === product.selectedWeight);
 
     if (existingProductIndex !== -1) {
-      // Product already exists, update quantity
       const updatedCart = [...cart];
       updatedCart[existingProductIndex].quantity += 1;
       setCart(updatedCart);
     } else {
-      // Product doesn't exist, add it to the cart
       setCart([...cart, { ...product, quantity: 1 }]);
     }
   };
